@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>盖瑞理的博客</title>
   
+  <subtitle>不是我不明白，这世界变化快</subtitle>
+  <link href="https://shouqe.xyz/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
-  <updated>2023-05-13T08:09:37.313Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://shouqe.xyz/"/>
+  <updated>2023-05-16T05:20:57.644Z</updated>
+  <id>https://shouqe.xyz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Gary Li</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>什么是RLHF</title>
+    <link href="https://shouqe.xyz/2023/05/14/%E4%BB%80%E4%B9%88%E6%98%AFRLHF/"/>
+    <id>https://shouqe.xyz/2023/05/14/%E4%BB%80%E4%B9%88%E6%98%AFRLHF/</id>
+    <published>2023-05-14T14:30:45.000Z</published>
+    <updated>2023-05-16T05:20:57.644Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>字面翻译：</strong>RLHF (Reinforcement Learning from Human Feedback) ，即以强化学习方式依据人类反馈优化语言模型。</p><p>强化学习从人类反馈（RLHF）是一种先进的AI系统训练方法，它将强化学习与人类反馈相结合。它是一种通过将人类训练师的智慧和经验纳入模型训练过程中，创建更健壮的学习过程的方法。该技术涉及使用人类反馈创建奖励信号，然后通过强化学习来改善模型的行为。</p><p>强化学习，简单来说，是一个过程，其中AI代理通过与环境的交互和以奖励或惩罚的形式获得的反馈来学习做出决策。代理的目标是随时间最大化累积奖励。 RLHF通过用人类生成的反馈替换或补充预定义的奖励函数，从而允许模型更好地捕捉复杂的人类偏好和理解，从而增强了这个过程。</p><p>RLHF的过程可以分为几个步骤：<br>初始模型训练：一开始，AI模型使用监督学习进行训练，人类训练者提供正确行为的标记示例。模型学习根据给定的输入预测正确的动作或输出。<br>收集人类反馈：在初始模型被训练之后，人类训练者提供对模型表现的反馈。他们根据质量或正确性排名不同的模型生成的输出或行为。这些反馈被用来创建强化学习的奖励信号。<br>强化学习：然后使用Proximal Policy Optimization (PPO)或类似的算法对模型进行微调，这些算法将人类生成的奖励信号纳入其中。模型通过从人类训练者提供的反馈学习，不断提高其性能。<br>迭代过程：收集人类反馈并通过强化学习改进模型的过程是重复进行的，这导致模型的性能不断提高。<br><img src="/images/1-chatgpt-training.png" alt="原理过程"><br>和gpt之间的关系<br>RLHF技术与GPT系列模型之间有密切的关系，因为RLHF被用于训练这些模型之一的ChatGPT，同时也被用于GPT-4的开发。这些模型使用大规模的神经网络，可以生成自然语言文本，例如对话和文章。</p><p>然而，对于自然语言处理任务，通常很难定义和测量奖励函数，特别是当涉及到人类价值和偏好的复杂任务时。在这种情况下，使用RLHF技术可以让语言模型在不需要人为指定奖励函数的情况下，通过与人类交互获得反馈信号来优化其生成的文本。这使得语言模型能够更好地捕捉人类的偏好和理解，并提供更加自然和准确的文本输出。因此，RLHF技术是GPT系列模型成功的关键之一，使其能够在许多自然语言处理任务中取得显著的成果。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;字面翻译：&lt;/strong&gt;RLHF (Reinforcement Learning from Human Feedback) ，即以强化学习方式依据人类反馈优化语言模型。&lt;/p&gt;
+&lt;p&gt;强化学习从人类反馈（RLHF）是一种先进的AI系统训练方法，它将强化学</summary>
+      
+    
+    
+    
+    
+    <category term="AI" scheme="https://shouqe.xyz/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/05/13/hello-world/"/>
-    <id>http://example.com/2023/05/13/hello-world/</id>
+    <link href="https://shouqe.xyz/2023/05/13/hello-world/"/>
+    <id>https://shouqe.xyz/2023/05/13/hello-world/</id>
     <published>2023-05-13T08:09:37.313Z</published>
     <updated>2023-05-13T08:09:37.313Z</updated>
     

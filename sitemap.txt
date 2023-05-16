@@ -1,2 +1,5 @@
-http://example.com/2023/05/13/hello-world/
-http://example.com/
+https://shouqe.xyz/2023/05/14/%E4%BB%80%E4%B9%88%E6%98%AFRLHF/
+https://shouqe.xyz/tags/index.html
+https://shouqe.xyz/2023/05/13/hello-world/
+https://shouqe.xyz/
+https://shouqe.xyz/tags/AI/
